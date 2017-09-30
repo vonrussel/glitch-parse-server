@@ -1,8 +1,6 @@
 // Example express application adding the parse-server module to expose Parse
 // compatible API routes.
-// require('dotenv').config();
-// require('source-map-support').install();
-
+require("babel-polyfill");
 
 var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
